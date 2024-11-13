@@ -1,0 +1,81 @@
+/* Register.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #9ad7ff 0%, #a0b1be 100%);
+}
+
+.register {
+  background-color: #ffffff;
+  padding: 2rem 3rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.register h2 {
+  margin-bottom: 1.5rem;
+  color: #333333;
+  font-size: 1.8rem;
+}
+
+.register input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.register input:focus {
+  border-color: #9adfff;
+  outline: none;
+}
+
+.register button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff9a9e;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.register button:hover {
+  background-color: #6fc9f0;
+  transform: translateY(-2px);
+}
+
+.register p {
+  margin-top: 1rem;
+  color: #555555;
+}
+
+.register a {
+  color: #ff9a9e;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.register a:hover {
+  color: #69c3e7;
+}
